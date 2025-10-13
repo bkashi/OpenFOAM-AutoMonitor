@@ -1,0 +1,43 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      functions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//#includeFunc patchAverage(patch=inlet, fields=(p U))
+residuals
+{
+    #includeEtc "caseDicts/functions/numerical/residuals.cfg"
+    type        residuals;
+    //region      fluid;
+    fields      (U p);
+}
+
+outletVolFlow
+{
+    #includeEtc "caseDicts/functions/surfaceFieldValue/patchValue.cfg"
+    fields      (phi);
+    operation   sum;
+    patch       duct_out;
+}
+
+inletPressure
+{
+    #includeEtc "caseDicts/functions/surfaceFieldValue/patchValue.cfg"
+    fields      (p);
+    operation   areaAverage;
+    patch       duct_in;
+}
+
+
+// ************************************************************************* //
