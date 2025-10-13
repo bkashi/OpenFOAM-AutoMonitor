@@ -22,7 +22,7 @@ Prerequisites:
 - matplotlib
 - pandas
 
-
+<br>
 💡 See "function" file (place in system directory) for example entries for monitored quantities.<br>
 <br>
 Tested with OpenFOAM 12.
