@@ -36,7 +36,7 @@ Or graphically select case directory:<br>
 <img width="240" height="165" alt="image" src="https://github.com/user-attachments/assets/f81c8fa1-27c1-4316-8bf8-b304a0eb39bf" />
 <br>
 <br>
-Prerequisites:<br>
+## Prerequisites:<br>
 matplotlib - For plotting and visualization<br>
 pandas - For CSV data reading and manipulation<br>
 numpy - For mathematical operations (usually comes with matplotlib)<br>
