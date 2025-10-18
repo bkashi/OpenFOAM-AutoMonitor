@@ -37,8 +37,9 @@ Or graphically select case directory:<br>
 <br>
 <br>
 Prerequisites:
-- matplotlib
-- pandas
+matplotlib - For plotting and visualization
+pandas - For CSV data reading and manipulation
+numpy - For mathematical operations (usually comes with matplotlib)
 
 <br>
 💡 See "function" file (place in system directory) for example entries for monitored quantities.<br>
