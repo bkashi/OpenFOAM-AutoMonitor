@@ -1,4 +1,9 @@
 # Graphical Monitor for OpenFOAM.<br>
+
+
+<img width="1335" height="421" alt="image" src="https://github.com/user-attachments/assets/00ff83e7-fc6e-4d0f-b3d1-e41123482a84" />
+<br>
+<br>
 Features:
 
 ### **📊 Real-Time Monitoring**
@@ -22,11 +27,7 @@ Features:
 - **Error reporting** (when verbose enabled)
 - **Interval change announcements**
 
-Screenshots:
-<img width="1335" height="421" alt="image" src="https://github.com/user-attachments/assets/00ff83e7-fc6e-4d0f-b3d1-e41123482a84" />
 <br>
-<br>
-
 Run from the OpenFOAM case directory. E.g.:<br>
 
 ```bash
