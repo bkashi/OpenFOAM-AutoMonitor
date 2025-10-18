@@ -4,7 +4,6 @@
 <img width="1335" height="421" alt="image" src="https://github.com/user-attachments/assets/00ff83e7-fc6e-4d0f-b3d1-e41123482a84" />
 <br>
 <br>
-Features:
 
 ### **📊 Real-Time Monitoring**
 - **Live plotting** of OpenFOAM simulation data
