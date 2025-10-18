@@ -30,7 +30,7 @@ Screenshots:
 Run from the OpenFOAM case directory. E.g.:<br>
 
 ```bash
-python3 ~/OpenFOAM/foamMonitor.py
+python3 ~/OpenFOAM/AutoFoamMonitor.py
 ```
 Or graphically select case directory:<br>
 <img width="240" height="165" alt="image" src="https://github.com/user-attachments/assets/f81c8fa1-27c1-4316-8bf8-b304a0eb39bf" />
