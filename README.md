@@ -5,7 +5,7 @@ Features:
 - Shows current value for all quatities.
 
 Screenshots:
-<img width="1334" height="397" alt="image" src="https://github.com/user-attachments/assets/16ec9d65-4a2d-4044-87d1-2619fcef8925" />
+<img width="1335" height="421" alt="image" src="https://github.com/user-attachments/assets/00ff83e7-fc6e-4d0f-b3d1-e41123482a84" />
 <br>
 <br>
 
